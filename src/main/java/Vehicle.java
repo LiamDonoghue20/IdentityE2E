@@ -7,7 +7,7 @@ public class Vehicle {
 
     public Vehicle(){}
 
-    public String getVehicleRegNumber(){
+    public String getVehicleRegNumber() {
         return vehicleRegNumber;
     }
 

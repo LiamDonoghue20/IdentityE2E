@@ -1,4 +1,9 @@
-package PACKAGE_NAME;
+import java.io.File;
+import java.util.List;
 
-public class FileService {
+public interface FileService {
+
+    String[] getFileInfo();
+
+
 }

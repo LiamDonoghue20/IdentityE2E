@@ -1,4 +1,15 @@
-package PACKAGE_NAME;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+        features= "src/test/java/FeatureFile.feature",
+        glue ="src/test/java/DVLAStepFile.java"
+)
 
 public class CucumberGlue {
+
 }
